@@ -1,0 +1,41 @@
+1. chalk - форматирование сообщений, 
+validator - валидатор
+uuid - генерация уникального id
+
+2.  npm install -g browserify
+browserify index.js -o bundle.js
+
+3. Попробовать ввести в терминал npm -v
+
+4. Этот блок выполниться в любом случае, даже если все упадет 
+
+5. let user = undefined;
+
+try{
+    alert(`Привет, ${user.name}`);
+}
+catch (error) {
+    console.log("Имя не заполнено");
+}
+
+6. с помощью throw
+throw new SyntaxError("Некорректные данные");
+
+7. В терминале написать команду npm init
+
+8.  
+try {
+        if(!parseInt('ыыыы'))
+    throw new SyntaxError("Данные неполны");
+    console.log(parseInt('ыыыы'));
+    }
+
+    catch (err) {
+    console.log(err.massage); 
+    }
+
+9. moment().format('dddd');
+
+10. Сборщик использую для сбора воедино всех подключаемых пакетов.
+ Webpack - это расширенный сборщик модулей, который позволяет вам объединить все ваши зависимости и загрузить их как статические ресурсы в браузер пользователя. В то время как Browserify объединяет только модули Node.js, Webpack может обрабатывать любые файлы интерфейса, такие как файлы .html , .css, .js, .scss , изображения и другие ресурсы.
+ 
